@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Debug In The Real World</title>
+</head>
+<body>
+<p class="ryans">DEBUG!</p>
+<script>
+// Regular
+console.log('hi');
+
+// Interpolated
+console.log('hi %s','⭐');
+
+// ES6 backtics
+let star='⭐';
+console.log(`hi ${star}`);
+
+// Styled
+console.log('%c I am great text','font-size:50px;color:red');
+
+// warning!
+console.warn('WARNING!');
+
+// Error :|
+console.error('ERROR!');
+// debugger;
+
+// Info
+console.info('INFO');
+
+
+// Testing
+const p = document.querySelector('p');
+console.log(p)
+console.assert(p.classList.contains('ryan'), 'that is wrong!');
+
+// clearing
+console.clear();
+
+// Viewing DOM Elements
+console.log(p);
+console.dir(p);
+
+// counting
+console.count('😀');
+console.count('Ryan')
+console.count('😀');
+console.count('😀');
+console.count('Ryan')
+
+console.count('😀');
+console.count('😀');
+console.count('Ryan')
+console.count('Ryan')
+console.count('Ryan')
+
+console.count('😀');
+console.count('😀');
+
+// timing
+console.time('Fetching data');
+fetch('https://api.github.com/users/furenberger')
+  .then(data => data.json())
+  .then(data => {
+    console.timeEnd('Fetching data');
+    console.log(data)
+  });
+
+console.log(data)
+
+console.clear();
+
+// Grouping together
+const dogs = [
+  { name: 'Snickers', age: 2, breed : 'schnouser' },
+  { name: 'hugo', age: 8 }
+];
+
+dogs.forEach(dog => {
+  console.groupCollapsed(`${dog.name}`);
+  console.log(dog);
+  console.log(`${dog.name} is ${dog.age} years old`);
+  console.groupEnd(`${dog.name}`);
+});
+
+// TABLE
+console.log(dogs);
+console.table(dogs);
+
+// What is JSON?
+
+// String
+const simpleVariable = 'simple variable';
+
+// Array
+const simpleVariableArray = ['simple variable','simple variable'];
+
+// Object (AKA JSON)
+const simpleVariableObj = {
+  name : 'Snickers',
+  age : 8
+};
+
+</script>
+</body>
+</html>
