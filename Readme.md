@@ -15,11 +15,15 @@ As mentioned if you want the source code to VSCODE:
 
 ### Useful VS CODE extenstions
 
-*Color Hightlight
-*Identicator
-*Rainbow Brackets
-*TODO Highlight
-*vscode-icons
+* Color Hightlight
+
+* Identicator
+
+* Rainbow Brackets
+
+* TODO Highlight
+
+* vscode-icons
 
 ## 3D Printing
 
