@@ -13,6 +13,14 @@ I use [VSCODE](https://code.visualstudio.com/) and had the [Live Server](https:/
 As mentioned if you want the source code to VSCODE:
 [VS Code Source Repository](https://github.com/Microsoft/vscode/)
 
+### Useful VS CODE extenstions
+
+*Color Hightlight
+*Identicator
+*Rainbow Brackets
+*TODO Highlight
+*vscode-icons
+
 ## 3D Printing
 
 ### Models
