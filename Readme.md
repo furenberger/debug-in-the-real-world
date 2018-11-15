@@ -25,6 +25,11 @@ As mentioned if you want the source code to VSCODE:
 
 * vscode-icons
 
+## Ardunio
+
+An example Ardunio Kit: 
+[Amazon link](https://www.amazon.com/ELEGOO-Project-Starter-Arduino-Mega2560/dp/B01GEEWIPA/ref=asc_df_B01GEEWIPA/?tag=hyprod-20&linkCode=df0&hvadid=309779531175&hvpos=1o5&hvnetw=g&hvrand=1012531096317118078&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9018790&hvtargid=pla-568630327591&psc=1&tag=&ref=&adgrpid=62412137260&hvpone=&hvptwo=&hvadid=309779531175&hvpos=1o5&hvnetw=g&hvrand=1012531096317118078&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9018790&hvtargid=pla-568630327591)
+
 ## 3D Printing
 
 ### Models
